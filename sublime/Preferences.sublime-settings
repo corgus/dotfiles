@@ -1,23 +1,30 @@
 {
+	"theme": "Glacier.sublime-theme",
 	"color_scheme": "Packages/Theme - Glacier/glacier.tmTheme",
+	"font_face": "Source Code Pro for Powerline",
+	"font_size": 15,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+
+	"highlight_line": true,
 	"draw_minimap_border": true,
 	"ensure_newline_at_eof_on_save": true,
-	"font_face": "Inconsolata",
-	"font_size": 16,
-	"highlight_line": true,
+	"trim_trailing_white_space_on_save": true,
+
+	"tab_size": 2,
+	"translateTabsToSpaces": true,
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
 	"rulers":
 	[
-		80
-	],
-	"tab_size": 2,
-	"theme": "Glacier.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+		79
+	]
 }
