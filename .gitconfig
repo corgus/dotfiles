@@ -1,10 +1,12 @@
-[color]
-	ui = true
 [user]
 	name = corgus
+[color]
+	ui = true
 [core]
-	excludesfile = /Users/corg/.gitignore_global
 	editor = vim
+	excludesfile = /Users/corey/.gitignore
+[credential]
+	helper = osxkeychain
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path =
