@@ -2,6 +2,12 @@
 	"color_scheme": "Packages/Theme - Glacier/glacier.tmTheme",
 	"draw_minimap_border": true,
 	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		"cache/",
+		"logs/",
+		".git/"
+	],
 	"font_face": "Source Code Pro Light",
 	"font_size": 15,
 	"highlight_line": true,
@@ -15,6 +21,23 @@
 		"draw_active"
 	],
 	"index_files": true,
+	"installed_packages":
+	[
+		"Better CoffeeScript",
+		"CoffeeScriptHaml",
+		"Color Highlighter",
+		"DashDoc",
+		"Dotfiles Syntax Highlighting",
+		"Package Control",
+		"Ruby Slim",
+		"Sass",
+		"SCSS",
+		"SublimeLinter",
+		"SublimeLinter-coffee",
+		"SublimeLinter-coffeelint",
+		"SublimeLinter-rubocop",
+		"SublimeLinter-ruby"
+	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"rulers":
@@ -24,6 +47,5 @@
 	"tab_size": 2,
 	"theme": "Glacier.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"folder_exclude_patterns": ["cache/"]
+	"trim_trailing_white_space_on_save": true
 }
