@@ -1,0 +1,30 @@
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 89
+
+Metrics/MethodLength:
+  Max: 20 # Default 10
+
+Metrics/ClassLength:
+  CountComments: false
+  Max: 500
+
+AllCops:
+  RunRailsCops: true
+  Exclude:
+    - 'spec/factories/*'
+    - 'db/schema.rb'
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+  SupportedStyles:
+    - nested
+    - compact
+
+Style/IndentationConsistency:
+  EnforcedStyle: rails
+  SupportedStyles:
+    - normal
+    - rails
