@@ -1,0 +1,20 @@
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 89
+
+Metrics/ClassLength:
+  CountComments: false
+  Max: 500
+
+AllCops:
+  Exclude:
+    - 'spec/factories/*'
+    - 'db/schema.rb'
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+  SupportedStyles:
+    - nested
+    - compact
