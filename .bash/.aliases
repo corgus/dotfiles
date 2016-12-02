@@ -45,7 +45,7 @@ alias es_stop="curl -XPOST http://localhost:9200/_shutdown"
 # alias subl="open -a 'Sublime Text'"
 
 # Rails
-alias rs="rails s"
+alias rs="rails server -p 3001"
 alias rc="rails c"
 alias tailrails="tail -f -n 1000 log/development.log | grep -i 'processing\|rendered\|parameters'"
 alias rake="bin/rake"
