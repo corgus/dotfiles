@@ -33,19 +33,18 @@
 		"Sass",
 		"SCSS",
 		"SublimeLinter",
-		"SublimeLinter-coffee",
 		"SublimeLinter-coffeelint",
-		"SublimeLinter-rubocop",
-		"SublimeLinter-ruby"
+		"SublimeLinter-rubocop"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"rulers":
 	[
-		79
+		89
 	],
 	"tab_size": 2,
 	"theme": "Glacier.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"typescript_tsdk": "/usr/local/lib/node_modules/typescript/lib"
 }
